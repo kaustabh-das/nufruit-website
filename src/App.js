@@ -11,9 +11,6 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route exact path="/privacy_policy/" component={Policy} />
-        <Route exact path="/terms_of_use/" component={Terms} />
-        <Route exact path="/about-us/" component={About} /> */}
       </Routes>
     </Router>
   );
